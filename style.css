@@ -26,16 +26,8 @@ table {
 }
 
 thead {
+    font-family: Rock Salt;
     color: white;
-    text-align: center;
-}
-
-#header_image {
-    background-image: linear-gradient(rgba(0, 0, 02, 0.1), rgba(0, 0, 0, 0.5)), url(assets\leopardskin.jpg));
-}
-
-#footer_image {
-    background-image: linear-gradient(rgba(0, 0, 02, 0.1), rgba(0, 0, 0, 0.5)), url(assets\leopardskin.jpg));
 }
 
 td {
