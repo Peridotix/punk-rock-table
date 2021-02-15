@@ -1,0 +1,60 @@
+body {
+    font-family: "Rock Salt", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+    text-align: right;
+    font-size: 12px;
+}
+
+table, th, tfoot {
+    padding: 5px;
+    border: 2px solid #800080 ;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
+
+thead {
+    font-family: Rock Salt;
+    color: white;
+}
+
+td {
+    font-family: helvetica;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.foot1 {
+    font-family: Rock Salt;
+    text-align: right;
+    padding: 10px;
+    border: 2px solid #800080;
+    color: white;
+}
+
+.foot2 {
+    font-family: Rock Salt;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #800080;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+
+tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
