@@ -5,21 +5,20 @@ body {
     margin: 2em;
   }
 
-h1 {
-    font-family: Rock Salt;
-    font-style: italic;
-    color: #373fff;
-}
-
-p {
-    font-family: Helvetica;
-}
-
 caption {
     padding: 5px;
     caption-side: bottom;
     text-align: right;
     font-size: 12px;
+}
+
+table, th, tfoot {
+    padding: 5px;
+    border: 2px solid #800080 ;
+}
+
+table {
+    table-layout: fixed;
 }
 
 .collapse {
@@ -28,23 +27,26 @@ caption {
 
 thead {
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(leopardskin.jpg);
+    text-align: center;
 }
 
-th, td {
-    text-align: center;
+#header_image {
+    background-image: linear-gradient(rgba(0, 0, 02, 0.1), rgba(0, 0, 0, 0.5)), url(assets\leopardskin.jpg));
+}
+
+#footer_image {
+    background-image: linear-gradient(rgba(0, 0, 02, 0.1), rgba(0, 0, 0, 0.5)), url(assets\leopardskin.jpg));
 }
 
 td {
     font-family: helvetica;
+    text-align: center;
     font-size: 12px;
     padding: 10px;
 }
 
-tfoot td {
-    font-family: Rock Salt;
-}
 .foot1 {
+    font-family: Rock Salt;
     text-align: right;
     padding: 10px;
     border: 2px solid #800080;
@@ -52,26 +54,17 @@ tfoot td {
 }
 
 .foot2 {
+    font-family: Rock Salt;
     text-align: left;
     padding: 10px;
     border: 2px solid #800080;
     color: white;
 }
 
-table, th, tfoot {
-    padding: 5px;
-    border: 2px solid #800080 ;
-    
-}
-
-table {
-    table-layout: fixed;
-}
-
 tr:nth-child(even) {
     background-color: #e495e4;
   }
 
-  tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #ff33cc;
   }
