@@ -1,11 +1,42 @@
 /* CSS files add styling rules to your content */
 
 body {
-    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: "Rock Salt", helvetica, arial, sans-serif;
     margin: 2em;
   }
-  
-  h1 {
+
+h1 {
+    font-family: Rock Salt;
     font-style: italic;
     color: #373fff;
-  }
+}
+
+p {
+    font-family: Helvetica;
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+    text-align: right;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    font-family: helvetica;
+}
+
+tfoot td {
+    font-family: Rock Salt;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    table-layout: fixed;
+}
