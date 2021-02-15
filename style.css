@@ -19,6 +19,15 @@ caption {
     padding: 5px;
     caption-side: bottom;
     text-align: right;
+    font-size: 12px;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
 }
 
 th, td {
@@ -27,16 +36,41 @@ th, td {
 
 td {
     font-family: helvetica;
+    font-size: 12px;
+    padding: 10px;
 }
 
 tfoot td {
     font-family: Rock Salt;
 }
+.foot1 {
+    text-align: right;
+    padding: 10px;
+    border: 2px solid #800080;
+    color: white;
+}
 
-table, tr, th, td {
-    border: 1px solid black;
+.foot2 {
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #800080;
+    color: white;
+}
+
+table, th, tfoot {
+    padding: 5px;
+    border: 2px solid #800080 ;
+    
 }
 
 table {
     table-layout: fixed;
 }
+
+tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
